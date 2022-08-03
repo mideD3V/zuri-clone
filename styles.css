@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --red-text: #e7332b;
+  --text-color: #514949;
+}
+body{
+    background-color: white;
+}
+.header {
+  background-image: url(./images/hero-bg.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-height: 900px;
+}
+
+.header {
+    margin-bottom: 0;
+    height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.zuri-logo {
+  display: block;
+  margin: 70px auto;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #514949;
+}
+
+.sub-hero {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #514949;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 16px;
+  max-width: 700px;
+  padding: 20px;
+  line-height: 25px;
+}
+.red-font {
+  color: var(--red-text);
+}
+
+.button {
+  display: flex;
+  width: 30%;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.new-button {
+  margin: 50px 10px;
+  padding: 10px;
+  background-color: var(--red-text);
+  color: #fff;
+  border: 1px solid;
+  flex: auto;
+  font-size: 16px;
+}
+.need-button {
+  margin: 50px 10px;
+  padding: 10px;
+  background-color: #fff;
+  color: var(--red-text);
+  border: 1px solid var(--red-text);
+  flex: auto;
+  font-size: 16px;
+}
+
+.section2{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 400px;
+    
+}
+
+.text2{
+    font-size: 24px;
+    line-height: 30px;
+    
+}
+
+
+.box1, .box2, .box3 {
+    margin-top: 500px;
+    width: 300px;
+    height: 600px;
+    background-color: #FFFAFA;
+}
