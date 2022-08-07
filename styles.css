@@ -7,6 +7,7 @@
   --red-text: #e7332b;
   --text-color: #514949;
 }
+
 body{
     background-color: white;
 }
@@ -20,11 +21,12 @@ body{
 
 .header {
     margin-bottom: 0;
-    height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 .zuri-logo {
   display: block;
   margin: 70px auto;
@@ -79,22 +81,117 @@ body{
 }
 
 .section2{
-    margin: 0 auto;
+    margin: auto;
+    margin-top: -70px;
     text-align: center;
     max-width: 400px;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .text2{
     font-size: 24px;
-    line-height: 30px;
-    
+    line-height: 40px;   
+}
+
+.section3 {
+    margin: auto;
+    display: flex;
+    margin: 0 auto 200px;
+    width: 100%;
+    /* background-color: cadetblue; */
+}
+
+.left-bg{
+    width: 400px;
+    height: 500px;
+    margin: 20px 100px;
+}
+.right-bg{
+    width: 400px;
+    height: 500px;
+    /* margin: 20px 700px; */
+    /* margin-right: 100px;
+    margin-top: 20px; */
+    margin: 20px 600px ;
+  
+}
+
+.box1, .box2, .box3 {
+    width: 400px;
+    height: 500px;
+    padding: 60px 40px;
+    background-color: #FFFAFA;
+}
+
+.box1{
+   
+    margin-left: -1980px;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+    color: var(--text-color);
+}
+
+.box1 a {
+    text-decoration: none;
+    line-height: 50px; 
+}
+
+.box2{
+    margin-left: 25px;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+    color: var(--text-color);
+}
+.box2 a {
+    text-decoration: none;
+    line-height: 50px; 
+}
+
+.box3 {
+    margin-top: 80px;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+    line-height: 2em;
+    color: var(--text-color);
 }
 
 
-.box1, .box2, .box3 {
-    margin-top: 500px;
-    width: 300px;
-    height: 600px;
-    background-color: #FFFAFA;
+.box3 a {
+    text-decoration: none;
+    line-height: 50px; 
+}
+
+.section4 {
+    display:flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin:0 200px;
+}
+
+
+.links a {
+    text-decoration: none;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+.contact{
+    margin-bottom: 20px;
+}
+
+.socials img{
+    width: 20px;
+    height: 20px;
+}
+
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+footer p{
+    padding: 20px 0 50px;
 }
